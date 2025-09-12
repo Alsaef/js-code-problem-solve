@@ -1,4 +1,5 @@
 'use strict'
-age=31
+var $age=31
 
-console.log(age);
+var $age =20
+console.log($age);

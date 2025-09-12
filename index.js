@@ -6,7 +6,7 @@ const addStrNum = (str) => {
     }
 
     let sum = 0
-    const strSplit = str.split('')
+    const strSplit = str.split('+')
 
     for (const s of strSplit) {
         const numberStr = parseInt(s)
@@ -24,4 +24,4 @@ const addStrNum = (str) => {
 
 // console.log(addStrNum(1+2+5));
 
-console.log(addStrNum('1+3a+4,4'));
+console.log(addStrNum('10+20a+30'));
