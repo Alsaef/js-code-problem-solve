@@ -17,9 +17,13 @@ console.log(height);
 console.log(weight);
 console.log(nid);
 console.log(isDev);
-console.log(typeof favoriteFood);
-// console.log(Array.isArray(favoriteFood)); check array type
+console.log(favoriteFood);
 console.log(certificate);
+
+
+// console.log(typeof favoriteFood);
+// console.log(Array.isArray(favoriteFood)); check array type
+
 
 
 
