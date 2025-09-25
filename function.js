@@ -13,9 +13,21 @@
 
 
 
-const Numbers=(nums)=>{
-console.log(nums);
+// const Numbers=(nums)=>{
+// console.log(nums);
 
+// }
+
+// Numbers(1)
+
+
+//defult value
+
+function MyName(name) {
+    console.log(name);
+    return name
 }
 
-Numbers(1)
+console.log(MyName('ratul'));
+
+// console.log(typeof null);

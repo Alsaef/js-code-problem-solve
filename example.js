@@ -8,9 +8,9 @@ function checkNumber(num) {
     console.log("Zero");
   }
 }
-checkNumber(10);  // Positive
-checkNumber(-5);  // Negative
-checkNumber(0);   // Zero
+checkNumber(10);  
+checkNumber(-5);  
+checkNumber(0);   
 
 
 // 2. Even or Odd
@@ -21,8 +21,8 @@ function checkEvenOdd(num) {
     console.log("Odd");
   }
 }
-checkEvenOdd(7);  // Odd
-checkEvenOdd(4);  // Even
+checkEvenOdd(7);  
+checkEvenOdd(4);  
 
 
 // 3. Voting Eligibility
@@ -33,8 +33,8 @@ function checkVotingEligibility(age) {
     console.log("You are not yet eligible to vote.");
   }
 }
-checkVotingEligibility(20); // Eligible
-checkVotingEligibility(15); // Not eligible
+checkVotingEligibility(20); 
+checkVotingEligibility(15); 
 
 
 // 4. Largest of Two Numbers
@@ -47,8 +47,8 @@ function findLargest(num1, num2) {
     console.log("Both numbers are equal");
   }
 }
-findLargest(10, 20); // 20 is larger
-findLargest(15, 15); // Both equal
+findLargest(10, 20); 
+findLargest(15, 15); 
 
 
 // 5. Discount Calculator
@@ -61,5 +61,5 @@ function calculateDiscount(price) {
     console.log("Final Price: $" + price);
   }
 }
-calculateDiscount(150); // Discount applied
-calculateDiscount(90);  // No discount
+calculateDiscount(150); 
+calculateDiscount(90);  

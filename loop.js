@@ -30,3 +30,15 @@ array.forEach(arr => {
 
 
 // loop 
+
+
+let nameArray=['pagla sajid','arafat','ratul']
+
+console.log(nameArray);
+
+
+for (let i = 0;i<nameArray.length;i++) {
+    
+    console.log(nameArray[i]);
+    
+}
