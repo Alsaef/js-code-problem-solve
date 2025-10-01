@@ -13,11 +13,19 @@
 // console.log(this === window); // In a browser, this will be true
 
 
-// function fan() {
-//     console.log(this);
-// }
+//  Es5 Function this Value Object
+function fan() {
+    console.log('Es5',this);
+}
 
-// fan()
+fan()
+
+// Es6 function this Value Window
+const fanTwo=()=>{
+  console.log("Es6",this);
+}
+
+fanTwo()
 
 
 // const myObject={
@@ -30,16 +38,31 @@
 // console.log(myObject.name);
 
 
-const myObject={
-    name:'al saef ratul',
-    myFan:function(){
-       let fn=()=>{
-         console.log(this);
-       }
+// const myObject={
+//     name:'al saef ratul',
+//     myFan:function(){
+//        let fn=()=>{
+//          console.log(typeof this);
+//            console.log(this);
+//        }
 
-       fn()
-    }
-}
+//        fn()
+//     }
+// }
 
-console.log(myObject.myFan());
+// console.log(myObject.myFan());
+
+
+// const object2={
+//   nam:'ratul',
+//   myFan:()=>{
+//     let fn=()=>{
+//       console.log('type check',typeof this);
+//       console.log('window',this);
+//     }
+//     fn()
+//   }
+// }
+
+// console.log(object2.myFan());
 
