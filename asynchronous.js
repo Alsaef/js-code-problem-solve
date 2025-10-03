@@ -75,3 +75,12 @@ function wait() {
 wait()
 
 console.log('end');
+
+
+// blocking code 
+
+// read file sync 
+
+// non blocking code 
+
+// read file async
