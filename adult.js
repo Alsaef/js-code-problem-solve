@@ -6,8 +6,13 @@ const peoples = [
 
 
 function adultP(peoples) {
-  peoples.map(people=> console.log(people.age>=18?`${people.name} adult`:`${people.name} not adult`))
-  return
+ let x= peoples.map(people=> {
+   return people.age>=18?`${people.name} adult`:`${people.name} not adult`
+  })
+
+ 
+  return x
+  
 }
 
 

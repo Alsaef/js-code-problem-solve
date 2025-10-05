@@ -7,8 +7,33 @@
   <title>Document</title>
 </head>
 
+<style>
+  .parent {
+    font-size: 16px;
+    background: #b76161;
+    height: 300px;
+    width: 300px;
+}
+
+.child {
+    font-size: 2em;
+     background: #61b779;
+}
+
+
+
+
+
+</style>
 <body>
   
+
+  <div class="parent">
+
+    <div class="child">
+
+    </div>
+  </div>
  <h1>hello</h1>
  <h2>hello</h2>
  <h3>hello</h3>
@@ -34,3 +59,15 @@
 </body>
 
 </html>
+
+<!-- 1️⃣ em
+
+em হলো relative unit, যা parent element এর font-size এর ওপর নির্ভর করে।
+
+অর্থাৎ, কোনো element এ যদি তুমি font-size: 2em; দাও, তাহলে সেটার font-size হবে parent এর font-size এর 2 গুণ। -->
+
+<!-- 2️⃣ rem
+
+rem হলো relative unit, কিন্তু এটি সবসময় root element (<html>/body) এর font-size এর উপর নির্ভর করে।
+
+অর্থাৎ, nested structure যতই গভীরে হোক, rem সবসময় root এর size এর সাথে relation রাখে। -->

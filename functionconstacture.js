@@ -14,29 +14,59 @@
 
 
 //  Es5 Function this Value Object
-function fan() {
-    console.log('Es5',this);
+// function fan() {
+//     console.log('Es5',this);
+// }
+
+// fan()
+
+// // Es6 function this Value Window
+// const fanTwo=()=>{
+//   console.log("Es6",this);
+// }
+
+// fanTwo()
+
+
+
+// object
+const myObject={
+    name:'al saef ratul',
+    myFan:function () {
+        // console.log(this);
+        return this
+    }
 }
 
-fan()
+console.log(myObject.myFan());
 
-// Es6 function this Value Window
-const fanTwo=()=>{
-  console.log("Es6",this);
+// window
+
+const myObject2={
+    name:'al saef ratul',
+    myFan: ()=> {
+        // console.log(this);
+        return this
+    }
 }
 
-fanTwo()
+console.log(myObject2.myFan());
 
 
-// const myObject={
+
+// object
+// const myObj={
 //     name:'al saef ratul',
 //     myFan:function () {
-//         console.log(this.name);
+//         // console.log(this);
+//         return this.name
 //     }
 // }
 
-// console.log(myObject.name);
+// // myObj.name='ratul'
+// myObj.name='al saef'
 
+// console.log(myObj.myFan());
 
 // const myObject={
 //     name:'al saef ratul',
