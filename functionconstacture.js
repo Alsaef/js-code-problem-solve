@@ -96,3 +96,23 @@ console.log(myObject2.myFan());
 
 // console.log(object2.myFan());
 
+
+
+function myFunc(name,age) {
+   
+  this.namE=name
+
+  this.AGE=age
+
+   
+  
+
+}
+
+let myFan=new myFunc('ratul',22)
+
+console.log(myFan);
+
+// console.log(myFunc('ratul',22));
+
+// constactor functon new keyword use korle object hoiea jai

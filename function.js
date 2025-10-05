@@ -64,3 +64,5 @@ function nameOfLength(names) {
 }
 
 console.log(nameOfLength(['ratul','arafat','suvo','wasi']));
+
+

@@ -3,11 +3,20 @@
 const arrs=[1,2,3,4,5]
 
 let x= arrs.map((v,i,arr)=>{
-   return v*i
+   return v%2===0
      
 })
 
 console.log(x);
+
+let l= arrs.filter((v,i,arr)=>{
+   return v%2===0
+     
+})
+
+console.log(l);
+
+
 
 
 
