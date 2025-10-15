@@ -6,9 +6,9 @@ const user={
 
 console.log(Object.values(user));
 
-// const ObjConvArray=Object.values(user)
+const ObjConvArray=Object.values(user)
 
-// ObjConvArray.forEach(value=>console.log(value))
+ObjConvArray.forEach(value=>console.log(value))
 
 // for (let key in user) {
 //   console.log(user[key]);
