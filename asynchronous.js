@@ -45,36 +45,36 @@
 
 // synchronous
 
-console.log('start');
+// console.log('start');
 
-function wait() {
-    for (let i = 0; i < 50000000; i++) {
-        console.log(i);
+// function wait() {
+//     for (let i = 0; i < 50000000; i++) {
+//         console.log(i);
         
-    }
-}
+//     }
+// }
 
-wait()
+// wait()
 
-console.log('end');
+// console.log('end');
 
 
 // asynchronous
 
-console.log('start');
+// console.log('start');
 
-function wait() {
-   setTimeout(() => {
-     for (let i = 0; i < 50000000; i++) {
-        console.log(i);
+// function wait() {
+//    setTimeout(() => {
+//      for (let i = 0; i < 50000000; i++) {
+//         console.log(i);
         
-    }
-   }, 2000);
-}
+//     }
+//    }, 2000);
+// }
 
-wait()
+// wait()
 
-console.log('end');
+// console.log('end');
 
 
 // blocking code 
@@ -84,3 +84,17 @@ console.log('end');
 // non blocking code 
 
 // read file async
+
+
+// async || blocking code
+
+let a=1
+let b=5
+
+console.log('start');
+
+setTimeout(() => {
+    console.log(a+b);
+}, 2000);
+
+console.log("operation end");
